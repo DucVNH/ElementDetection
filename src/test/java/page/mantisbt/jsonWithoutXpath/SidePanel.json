@@ -1,0 +1,124 @@
+{
+  "elements" : [ {
+    "elementId" : "myView",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "my_view_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "viewIssues",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "view_all_bug_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "reportIssue",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "bug_report_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "changeLog",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "changelog_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "roadMap",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "readmap_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "summary",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "summary_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "manage",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "manage_overview_page.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "",
+  "pageName" : ""
+}

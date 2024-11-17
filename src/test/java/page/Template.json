@@ -1,0 +1,22 @@
+{
+  "elements" : [ {
+    "elementId" : "",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "",
+      "tag" : "",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "",
+  "pageName" : ""
+}

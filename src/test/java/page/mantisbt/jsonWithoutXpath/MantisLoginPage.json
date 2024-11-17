@@ -1,0 +1,56 @@
+{
+  "elements" : [ {
+    "elementId" : "username",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='login-form']",
+      "id" : "username",
+      "tag" : "input",
+      "className" : "form-control",
+      "text" : "Username",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-02",
+    "history" : []
+  }, {
+    "elementId" : "password",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='login-form']",
+      "id" : "password",
+      "tag" : "input",
+      "className" : "form-control",
+      "text" : "Password",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-02",
+    "history" : []
+  }, {
+    "elementId" : "btnLogin",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='login-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "btn-success",
+      "text" : "Login",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-02",
+    "history" : []
+  } ],
+  "webName" : "mantisbt",
+  "pageName" : "MantisLoginPage"
+}

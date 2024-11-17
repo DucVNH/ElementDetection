@@ -1,0 +1,7 @@
+{
+  "E2E_WEB_Baseline_01": {
+    "xlFilePath": "testdata/e2e/E2E_WEB_Baseline_01.xlsx",
+    "sheetName": "sheet1",
+    "specificRows": "1"
+  }
+}

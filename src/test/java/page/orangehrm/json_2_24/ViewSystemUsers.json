@@ -1,0 +1,22 @@
+{
+  "elements" : [ {
+    "elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "",
+      "label" : "Username",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "",
+  "pageName" : ""
+}

@@ -1,0 +1,56 @@
+{
+  "elements" : [ {
+    "elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-login-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "Username",
+      "label" : "Username",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputPassword",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-login-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "Password",
+      "label" : "Password",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnLogin",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-login-form']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "orangehrm",
+  "pageName" : "OrangeHRMLoginPage"
+}

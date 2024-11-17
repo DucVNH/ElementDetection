@@ -1,0 +1,243 @@
+{
+  "elements" : [ {
+    "elementId" : "employeeInfo",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-header']",
+      "id" : "",
+      "tag" : "h5",
+      "className" : "oxd-text",
+      "text" : "Employee Information",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputEmployeeName",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "",
+      "text" : "Type for hints...",
+      "label" : "Employee Name",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputEmployeeId",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "",
+      "label" : "Employee Id",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "selectEmploymentStatus",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-select-text-input",
+      "text" : "-- Select --",
+      "label" : "Employment Status",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "selectInclude",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-select-text-input",
+      "text" : "Current Employees Only",
+      "label" : "Include",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputSupervisorName",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "",
+      "text" : "Type for hints...",
+      "label" : "Supervisor Name",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "selectJobTitle",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-select-text-input",
+      "text" : "-- Select --",
+      "label" : "Job Title",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "selectSubUnit",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-select-text-input",
+      "text" : "-- Select --",
+      "label" : "Sub Unit",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnReset",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button--ghost",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnSearch",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button--secondary",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnAdd",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button--secondary",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnLastName",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Last Name",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnActions",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Actions",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "rowNguyen",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "",
+      "text" : "Nguyen",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "orangehrm",
+  "pageName" : "ViewEmployeeList"
+}

@@ -1,0 +1,11 @@
+core\helper\algorithm\robula\XPathInfo.class
+core\helper\algorithm\montoto\Montoto.class
+core\entity\ElementLocator.class
+core\entity\Attributes.class
+core\helper\algorithm\robula\AlgorithmSettings.class
+core\helper\algorithm\robula\Utils.class
+core\entity\HistoryEntry.class
+core\entity\XPathData.class
+core\entity\PageLocators.class
+core\helper\algorithm\robula\UtilsROBULAPlusNew.class
+core\helper\algorithm\robula\ElementInfo.class

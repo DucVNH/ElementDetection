@@ -1,0 +1,175 @@
+{
+  "elements" : [ {
+    "elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "",
+      "label" : "Username",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "userRole",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-select-text-input",
+      "text" : "Select",
+      "label" : "User Role",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "employeeName",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "",
+      "text" : "Type for hints...",
+      "label" : "Employee Name",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "status",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-select-text-input",
+      "text" : "Select",
+      "label" : "Status",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnReset",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button--ghost",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnSearch",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@class='oxd-form']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button--secondary",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnAdd",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button--secondary",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnUsername",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Username",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "userRoleAdmin",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-cell",
+      "text" : "Admin",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnStatus",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Status",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "",
+  "pageName" : ""
+}

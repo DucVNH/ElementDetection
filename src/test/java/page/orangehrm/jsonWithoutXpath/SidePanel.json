@@ -1,0 +1,192 @@
+{
+  "elements" : [ {
+    "elementId" : "admin",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewAdminModule"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "pim",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewPimModule"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "leave",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewLeaveModule"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "time",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewTimeModule"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "recruitment",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewRecruitmentModule"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "myInfo",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewMyDetails"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "performance",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewPerformanceModule"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "dashboard",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "dashboard"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "directory",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewDirectory"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "maintenance",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "maintenance"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "buzz",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "oxd-main-menu-item",
+      "text" : "",
+      "label" : "",
+      "href" : "viewBuzz"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "orangehrm",
+  "pageName" : "SidePanel"
+}

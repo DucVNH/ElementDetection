@@ -1,0 +1,51 @@
+{
+  "elements" : [ {
+    "elementId" : "inputFirstName",
+    "xpaths" : {
+      "robula" : "//input[@id=\"firstname\"]",
+      "montoto" : "//input[@id=\"firstname\"]"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[id = 'contactus']",
+      "id" : "firstname",
+      "tag" : "input",
+      "className" : "",
+      "text" : "Enter your first name",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-10-29",
+    "history" : [ {
+      "updateDate" : "2024-10-29",
+      "oldRobulaXPath" : "//input[@id=\"first_name\"]",
+      "newRobulaXPath" : "//input[@id=\"firstname\"]",
+      "oldMontotoXPath" : "//input[@id=\"first_name\"]",
+      "newMontotoXPath" : "//input[@id=\"firstname\"]"
+    } ]
+  }, {
+    "elementId" : "inputSurName",
+    "xpaths" : {
+      "robula" : "//input[@id=\"surname\"]",
+      "montoto" : "//input[@id=\"surname\"]"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[id = 'contactus']",
+      "id" : "surname",
+      "tag" : "input",
+      "className" : "",
+      "text" : "Enter your surname",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-10-29",
+    "history" : [ {
+      "updateDate" : "2024-10-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@id=\"surname\"]",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@id=\"surname\"]"
+    } ]
+  } ],
+  "webName" : "automationintesting",
+  "pageName" : "SeleniumTestPage"
+}
