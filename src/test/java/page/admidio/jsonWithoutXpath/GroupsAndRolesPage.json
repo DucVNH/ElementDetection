@@ -1,0 +1,124 @@
+{
+  "elements" : [ {
+    "elementId" : "btnCreateRole",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_groups_roles_add",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "groups_roles_new.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnShowPermissions",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_groups_roles_show_permissions",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "groups_roles.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnEditCategories",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_groups_roles_maintain_categories",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "categories.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnConfigureLists",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_groups_own_list",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "mylist.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "selectRoleTypes",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "role_type",
+      "tag" : "select",
+      "className" : "form-control",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "administrator",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "",
+      "tag" : "h5",
+      "className" : "card-title",
+      "text" : "Administrator",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "member",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "",
+      "tag" : "h5",
+      "className" : "card-title",
+      "text" : "Member",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "admidio",
+  "pageName" : "GroupsAndRolesPage"
+}

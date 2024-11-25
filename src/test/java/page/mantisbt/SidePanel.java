@@ -30,51 +30,30 @@ public class SidePanel extends BasePage {
     }
 
     public void goToMyView() {
-        waitForPageLoaded();
-        WebElement element = getWebElement("myView", locators);
-        clickOnElement(element);
-        waitForPageLoaded();
+        clickElementByLocatorId("myView");
     }
 
     public void goToViewIssues() {
-        waitForPageLoaded();
-        WebElement element = getWebElement("viewIssues", locators);
-        clickOnElement(element);
-        waitForPageLoaded();
+        clickElementByLocatorId("viewIssues");
     }
 
     public void goToReportIssue() {
-        waitForPageLoaded();
-        WebElement element = getWebElement("reportIssue", locators);
-        clickOnElement(element);
-        waitForPageLoaded();
+        clickElementByLocatorId("reportIssue");
     }
 
     public void goToChangeLog() {
-        waitForPageLoaded();
-        WebElement element = getWebElement("changeLog", locators);
-        clickOnElement(element);
-        waitForPageLoaded();
+        clickElementByLocatorId("changeLog");
     }
 
     public void goToRoadMap() {
-        waitForPageLoaded();
-        WebElement myView = getWebElement("roadMap", locators);
-        clickOnElement(myView);
-        waitForPageLoaded();
+        clickElementByLocatorId("roadMap");
     }
 
     public void goToSummary() {
-        waitForPageLoaded();
-        WebElement myView = getWebElement("summary", locators);
-        clickOnElement(myView);
-        waitForPageLoaded();
+        clickElementByLocatorId("summary");
     }
 
     public void goToManage() {
-        waitForPageLoaded();
-        WebElement myView = getWebElement("manage", locators);
-        clickOnElement(myView);
-        waitForPageLoaded();
+        clickElementByLocatorId("manage");
     }
 }

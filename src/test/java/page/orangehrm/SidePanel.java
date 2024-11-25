@@ -36,4 +36,48 @@ public class SidePanel extends BasePage {
         softAssert.assertTrue(maintenance != null);
         softAssert.assertTrue(buzz != null);
     }
+
+    public void goToAdmin() {
+        clickElementByLocatorId("admin");
+    }
+
+    public void goToPIM() {
+        clickElementByLocatorId("pim");
+    }
+
+    public void goToLeave() {
+        clickElementByLocatorId("leave");
+    }
+
+    public void goToTime() {
+        clickElementByLocatorId("time");
+    }
+
+    public void goToRecruitment() {
+        clickElementByLocatorId("recruitment");
+    }
+
+    public void goToMyInfo() {
+        clickElementByLocatorId("myInfo");
+    }
+
+    public void goToPerformance() {
+        clickElementByLocatorId("performance");
+    }
+
+    public void goToDashboard() {
+        clickElementByLocatorId("dashboard");
+    }
+
+    public void goToDirectory() {
+        clickElementByLocatorId("directory");
+    }
+
+    public void goToMaintenance() {
+        clickElementByLocatorId("maintenance");
+    }
+
+    public void goToBuzz() {
+        clickElementByLocatorId("buzz");
+    }
 }

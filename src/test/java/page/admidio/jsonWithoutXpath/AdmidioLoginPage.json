@@ -1,0 +1,56 @@
+{
+  "elements" : [ {
+    "elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id='plugin_login_form']",
+      "id" : "plg_usr_login_name",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "Username",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputPassword",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id='plugin_login_form']",
+      "id" : "plg_usr_password",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "Password",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnSignIn",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id='plugin_login_form']",
+      "id" : "next_page",
+      "tag" : "button",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "admidio",
+  "pageName" : "AdmidioLoginPage"
+}

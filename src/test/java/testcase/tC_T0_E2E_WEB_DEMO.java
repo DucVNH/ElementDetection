@@ -1,6 +1,8 @@
 package testcase;
 
 import org.testng.asserts.SoftAssert;
+import page.admidio.AdmidioLoginPage;
+import page.admidio.GroupsAndRolesPage;
 import page.automationintesting.SeleniumTestPage;
 import core.testng.BaseTest;
 import org.testng.annotations.Test;
@@ -26,6 +28,10 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
     ViewSystemUsers viewSystemUsers = new ViewSystemUsers(webDriver);
     ViewEmployeeList viewEmployeeList = new ViewEmployeeList(webDriver);
 
+    page.admidio.SidePanel admidioSidePanel = new page.admidio.SidePanel(webDriver);
+    AdmidioLoginPage admidioLoginPage = new AdmidioLoginPage(webDriver);
+    GroupsAndRolesPage groupsAndRolesPage = new GroupsAndRolesPage(webDriver);
+
     @Test
     public void tC_T0_E2E_WEB_DEMO_000() {
         SoftAssert softAssert = new SoftAssert();
@@ -41,11 +47,11 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         loadUrl(String.format("http://localhost/mantisbt_%s/my_view_page.php", webVer));
         mantisLoginPage.logIn("administrator", "root");
         mantisSidePanel.verifyPage(softAssert);
-        loadUrl(String.format("http://localhost/mantisbt_%s/view_all_bug_page.php", webVer));
+        mantisSidePanel.goToViewIssues();
         viewAllBugPage.verifyPage(softAssert);
-        loadUrl(String.format("http://localhost/mantisbt_%s/summary_page.php", webVer));
+        mantisSidePanel.goToSummary();
         summaryPage.verifyPage(softAssert);
-        loadUrl(String.format("http://localhost/mantisbt_%s/manage_overview_page.php", webVer));
+        mantisSidePanel.goToManage();
         managePage.verifyPage(softAssert);
     }
 
@@ -57,9 +63,21 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         loadUrl(String.format("http://localhost/orangehrm_%s/", webVer));
         orangeHRMLoginPage.logIn("administrator", "Sept_3rd2024");
         orangeSidePanel.verifyPage(softAssert);
-        loadUrl(String.format("http://localhost/orangehrm_%s/web/index.php/admin/viewSystemUsers", webVer));
-        viewSystemUsers.verifyPage(softAssert);
-        loadUrl(String.format("http://localhost/orangehrm_%s/web/index.php/pim/viewEmployeeList", webVer));
+        orangeSidePanel.goToPIM();
         viewEmployeeList.verifyPage(softAssert);
+        orangeSidePanel.goToAdmin();
+        viewSystemUsers.verifyPage(softAssert);
+    }
+
+    @Test
+    public void tC_T0_E2E_WEB_DEMO_003() {
+        String webVer = "4_2_12";
+        SoftAssert softAssert = new SoftAssert();
+
+        loadUrl(String.format("http://localhost/admidio_%s/", webVer));
+        admidioLoginPage.logIn("administrator", "Sept_3rd2024");
+        admidioSidePanel.verifyPage(softAssert);
+        admidioSidePanel.goToGroupsAndRoles();
+        groupsAndRolesPage.verifyPage(softAssert);
     }
 }

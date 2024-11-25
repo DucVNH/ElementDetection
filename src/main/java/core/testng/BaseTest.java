@@ -3,6 +3,7 @@ package core.testng;
 import core.entity.EnvironmentInfo;
 import core.helper.Constants;
 import core.helper.ExceptionHelper;
+import core.page.BasePage;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterGroups;
@@ -75,7 +76,17 @@ public abstract class BaseTest extends AbstractBaseTest {
     @AfterTest
     public void afterTest(ITestContext context) {
         logger.info("After Test Setup ...... ");
-
+        logger.info("===============================================");
+        if (BasePage.totalExecutions > 0) {
+            double timeInSec = (double) BasePage.totalExecutionTime / 1_000_000_000;
+            double averageTime = timeInSec / BasePage.totalExecutions;
+            logger.info("Total number of web elements located using attributes: " + BasePage.totalExecutions);
+            logger.info("Total time taken to locate web elements using attributes: " + timeInSec);
+            logger.info("Average time to locate an element: " + averageTime + " seconds");
+        } else {
+            logger.info("No executions were recorded.");
+        }
+        logger.info("===============================================");
     }
     @BeforeGroups
     public void beforeGroups(ITestContext context) {

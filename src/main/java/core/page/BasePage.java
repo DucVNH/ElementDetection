@@ -28,6 +28,8 @@ import static core.helper.algorithm.robula.UtilsROBULAPlusNew.generateRobulaXPat
 
 public class BasePage extends AbstractBasePage {
     protected PageLocators locators; // Shared locators for the current page
+    public static long totalExecutionTime = 0; // Cumulative time taken
+    public static int totalExecutions = 0;     // Total number of calls
 
     public BasePage(WebDriver driver) {
         this.driver = (RemoteWebDriver) driver;
@@ -123,6 +125,8 @@ public class BasePage extends AbstractBasePage {
 
     // Method to score web elements based on matching attributes
     public WebElement findBestMatch(String elementId, PageLocators locators) {
+        long startTime = System.nanoTime(); // Start time measurement
+
         ElementLocator oldElement = getElementLocator(elementId, locators);
         List<WebElement> idMatch = findPossibleIdMatch(oldElement);
         List<WebElement> tagMatch = findPossibleTagMatch(oldElement);
@@ -150,6 +154,11 @@ public class BasePage extends AbstractBasePage {
                 bestMatch = element;
             }
         }
+
+        long endTime = System.nanoTime(); // End time measurement
+        long elapsedTime = endTime - startTime; // Calculate elapsed time
+        totalExecutionTime += elapsedTime;
+        totalExecutions++;
 
         return bestMatch;
     }
@@ -337,5 +346,12 @@ public class BasePage extends AbstractBasePage {
             String xpath = String.format("//*[contains(@href, '%s')]", element.getAttributes().getHref());
             return driver.findElements(By.xpath(xpath));
         }
+    }
+
+    public void clickElementByLocatorId(String id) {
+        waitForPageLoaded();
+        WebElement element = getWebElement(id, locators);
+        clickOnElement(element);
+        waitForPageLoaded();
     }
 }
