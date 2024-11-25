@@ -1,0 +1,74 @@
+{
+  "elements" : [ {
+    "elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "//input[@id='plg_usr_login_name']",
+      "montoto" : "//input[@id='plg_usr_login_name']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id='plugin_login_form']",
+      "id" : "plg_usr_login_name",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "Username",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-21",
+    "history" : [ {
+      "updateDate" : "2024-11-21",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@id='plg_usr_login_name']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@id='plg_usr_login_name']"
+    } ]
+  }, {
+    "elementId" : "inputPassword",
+    "xpaths" : {
+      "robula" : "//input[@id='plg_usr_password']",
+      "montoto" : "//input[@id='plg_usr_password']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id='plugin_login_form']",
+      "id" : "plg_usr_password",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "Password",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-21",
+    "history" : [ {
+      "updateDate" : "2024-11-21",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@id='plg_usr_password']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@id='plg_usr_password']"
+    } ]
+  }, {
+    "elementId" : "btnSignIn",
+    "xpaths" : {
+      "robula" : "//button[@id='next_page']",
+      "montoto" : "//button[@id='next_page']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id='plugin_login_form']",
+      "id" : "next_page",
+      "tag" : "button",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-21",
+    "history" : [ {
+      "updateDate" : "2024-11-21",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//button[@id='next_page']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//button[@id='next_page']"
+    } ]
+  } ],
+  "webName" : "admidio",
+  "pageName" : "AdmidioLoginPage"
+}
