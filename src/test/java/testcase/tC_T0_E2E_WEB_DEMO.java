@@ -2,6 +2,7 @@ package testcase;
 
 import org.testng.asserts.SoftAssert;
 import page.admidio.AdmidioLoginPage;
+import page.admidio.DocumentsAndFilesPage;
 import page.admidio.GroupsAndRolesPage;
 import page.automationintesting.SeleniumTestPage;
 import core.testng.BaseTest;
@@ -30,6 +31,7 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
 
     page.admidio.SidePanel admidioSidePanel = new page.admidio.SidePanel(webDriver);
     AdmidioLoginPage admidioLoginPage = new AdmidioLoginPage(webDriver);
+    DocumentsAndFilesPage documentsAndFilesPage = new DocumentsAndFilesPage(webDriver);
     GroupsAndRolesPage groupsAndRolesPage = new GroupsAndRolesPage(webDriver);
 
     @Test
@@ -77,6 +79,8 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         loadUrl(String.format("http://localhost/admidio_%s/", webVer));
         admidioLoginPage.logIn("administrator", "Sept_3rd2024");
         admidioSidePanel.verifyPage(softAssert);
+        admidioSidePanel.goToDocsAndFiles();
+        documentsAndFilesPage.verifyPage(softAssert);
         admidioSidePanel.goToGroupsAndRoles();
         groupsAndRolesPage.verifyPage(softAssert);
     }

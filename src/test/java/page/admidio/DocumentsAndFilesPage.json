@@ -1,0 +1,166 @@
+{
+  "elements" : [ {
+    "elementId" : "btnUploadFiles",
+    "xpaths" : {
+      "robula" : "//a[@id='menu_item_documents_upload_files']",
+      "montoto" : "//a[@id='menu_item_documents_upload_files']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_documents_upload_files",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "file_upload.php"
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@id='menu_item_documents_upload_files']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@id='menu_item_documents_upload_files']"
+    } ]
+  }, {
+    "elementId" : "btnCreateFolder",
+    "xpaths" : {
+      "robula" : "//a[@id='menu_item_documents_create_folder']",
+      "montoto" : "//a[@id='menu_item_documents_create_folder']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_documents_create_folder",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "folder_new.php"
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@id='menu_item_documents_create_folder']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@id='menu_item_documents_create_folder']"
+    } ]
+  }, {
+    "elementId" : "btnPermissions",
+    "xpaths" : {
+      "robula" : "//a[@id='menu_item_documents_permissions']",
+      "montoto" : "//a[@id='menu_item_documents_permissions']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_documents_permissions",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "folder_config.php"
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@id='menu_item_documents_permissions']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@id='menu_item_documents_permissions']"
+    } ]
+  }, {
+    "elementId" : "columnName",
+    "xpaths" : {
+      "robula" : "//th[normalize-space(text()) = 'Name']",
+      "montoto" : "//th[normalize-space(text()) = 'Name']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//table[@id='tbl_documents_files']",
+      "id" : "",
+      "tag" : "th",
+      "className" : "text-left",
+      "text" : "Name",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//th[normalize-space(text()) = 'Name']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//th[normalize-space(text()) = 'Name']"
+    } ]
+  }, {
+    "elementId" : "columnSize",
+    "xpaths" : {
+      "robula" : "//th[normalize-space(text()) = 'Size']",
+      "montoto" : "//th[normalize-space(text()) = 'Size']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//table[@id='tbl_documents_files']",
+      "id" : "",
+      "tag" : "th",
+      "className" : "text-right",
+      "text" : "Size",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//th[normalize-space(text()) = 'Size']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//th[normalize-space(text()) = 'Size']"
+    } ]
+  }, {
+    "elementId" : "rowTST",
+    "xpaths" : {
+      "robula" : "//a[normalize-space(text()) = 'TST']",
+      "montoto" : "//a[normalize-space(text()) = 'TST']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//table[@id='tbl_documents_files']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "TST",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[normalize-space(text()) = 'TST']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[normalize-space(text()) = 'TST']"
+    } ]
+  }, {
+    "elementId" : "rowUAT",
+    "xpaths" : {
+      "robula" : "//a[normalize-space(text()) = 'UAT']",
+      "montoto" : "//a[normalize-space(text()) = 'UAT']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//table[@id='tbl_documents_files']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "UAT",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-25",
+    "history" : [ {
+      "updateDate" : "2024-11-25",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[normalize-space(text()) = 'UAT']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[normalize-space(text()) = 'UAT']"
+    } ]
+  } ],
+  "webName" : "admidio",
+  "pageName" : "DocumentsAndFilesPage"
+}
