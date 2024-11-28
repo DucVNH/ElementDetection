@@ -1,0 +1,90 @@
+{
+  "elements" : [ {
+    "elementId" : "inputEmployeeName",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-card-container']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "",
+      "text" : "Type for hints...",
+      "label" : "Employee Name",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnView",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-card-container']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnEmployeeName",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Employee Name",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnTimesheetPeriod",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Timesheet Period",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "columnActions",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
+      "id" : "",
+      "tag" : "div",
+      "className" : "oxd-table-header-cell",
+      "text" : "Actions",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "orangehrm",
+  "pageName" : "ViewEmployeeTimesheet"
+}

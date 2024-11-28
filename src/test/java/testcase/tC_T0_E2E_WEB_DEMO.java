@@ -4,6 +4,7 @@ import org.testng.asserts.SoftAssert;
 import page.admidio.AdmidioLoginPage;
 import page.admidio.DocumentsAndFilesPage;
 import page.admidio.GroupsAndRolesPage;
+import page.admidio.MembersPage;
 import page.automationintesting.SeleniumTestPage;
 import core.testng.BaseTest;
 import org.testng.annotations.Test;
@@ -13,6 +14,7 @@ import page.mantisbt.SummaryPage;
 import page.mantisbt.ViewAllBugPage;
 import page.orangehrm.OrangeHRMLoginPage;
 import page.orangehrm.ViewEmployeeList;
+import page.orangehrm.ViewEmployeeTimesheet;
 import page.orangehrm.ViewSystemUsers;
 
 public class tC_T0_E2E_WEB_DEMO extends BaseTest {
@@ -28,11 +30,13 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
     OrangeHRMLoginPage orangeHRMLoginPage = new OrangeHRMLoginPage(webDriver);
     ViewSystemUsers viewSystemUsers = new ViewSystemUsers(webDriver);
     ViewEmployeeList viewEmployeeList = new ViewEmployeeList(webDriver);
+    ViewEmployeeTimesheet viewEmployeeTimesheet = new ViewEmployeeTimesheet(webDriver);
 
     page.admidio.SidePanel admidioSidePanel = new page.admidio.SidePanel(webDriver);
     AdmidioLoginPage admidioLoginPage = new AdmidioLoginPage(webDriver);
     DocumentsAndFilesPage documentsAndFilesPage = new DocumentsAndFilesPage(webDriver);
     GroupsAndRolesPage groupsAndRolesPage = new GroupsAndRolesPage(webDriver);
+    MembersPage membersPage = new MembersPage(webDriver);
 
     @Test
     public void tC_T0_E2E_WEB_DEMO_000() {
@@ -69,6 +73,8 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         viewEmployeeList.verifyPage(softAssert);
         orangeSidePanel.goToAdmin();
         viewSystemUsers.verifyPage(softAssert);
+        orangeSidePanel.goToTime();
+        viewEmployeeTimesheet.verifyPage(softAssert);
     }
 
     @Test
@@ -83,5 +89,7 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         documentsAndFilesPage.verifyPage(softAssert);
         admidioSidePanel.goToGroupsAndRoles();
         groupsAndRolesPage.verifyPage(softAssert);
+        admidioSidePanel.goToMembers();
+        membersPage.verifyPage(softAssert);
     }
 }

@@ -1,0 +1,141 @@
+{
+  "elements" : [ {
+    "elementId" : "btnCreateMember",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_members_create_user",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "members_new.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnChangeHistory",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_members_change_history",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "profile_field_history.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnImportMembers",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_members_import_users",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "import.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnEditProfileFields",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='admidio-content-header']",
+      "id" : "menu_item_members_profile_fields",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "",
+      "label" : "",
+      "href" : "profile_fields.php"
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "checkboxShowAll",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'content']",
+      "id" : "mem_show_all",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputSearch",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'content']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "form-control",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnPrevious",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'content']",
+      "id" : "tbl_members_previous",
+      "tag" : "li",
+      "className" : "paginate_button",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnNext",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'content']",
+      "id" : "tbl_members_next",
+      "tag" : "li",
+      "className" : "paginate_button",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "admidio",
+  "pageName" : ""
+}
