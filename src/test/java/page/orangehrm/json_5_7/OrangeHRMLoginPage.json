@@ -1,0 +1,74 @@
+{
+  "elements" : [ {
+    "elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "//input[@name='username']",
+      "montoto" : "//input[@name='username']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-login-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "Username",
+      "label" : "Username",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@name='username']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@name='username']"
+    } ]
+  }, {
+    "elementId" : "inputPassword",
+    "xpaths" : {
+      "robula" : "//input[@name='password']",
+      "montoto" : "//input[@name='password']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-login-form']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "oxd-input",
+      "text" : "Password",
+      "label" : "Password",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@name='password']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@name='password']"
+    } ]
+  }, {
+    "elementId" : "btnLogin",
+    "xpaths" : {
+      "robula" : "//button",
+      "montoto" : "//button"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class='orangehrm-login-form']",
+      "id" : "",
+      "tag" : "button",
+      "className" : "oxd-button",
+      "text" : "",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//button",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//button"
+    } ]
+  } ],
+  "webName" : "orangehrm",
+  "pageName" : "OrangeHRMLoginPage"
+}
