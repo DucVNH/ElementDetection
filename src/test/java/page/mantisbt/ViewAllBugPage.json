@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "btnReset",
     "xpaths" : {
-      "robula" : "//a[1][@class=\"btn btn-sm btn-primary btn-white btn-round\"]",
-      "montoto" : "//a[@class=\"btn btn-sm btn-primary btn-white btn-round\" and @href=\"view_all_set.php?type=0\"]"
+      "robula" : "//a[1][@class='btn btn-sm btn-primary btn-white btn-round']",
+      "montoto" : "//a[@class='btn btn-sm btn-primary btn-white btn-round' and @href='view_all_set.php?type=0']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class = 'filter-box']",
@@ -14,13 +14,13 @@
       "label" : "",
       "href" : "view_all_set.php?type=0"
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[1][@class=\"btn btn-sm btn-primary btn-white btn-round\"]",
+      "newRobulaXPath" : "//a[1][@class='btn btn-sm btn-primary btn-white btn-round']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class=\"btn btn-sm btn-primary btn-white btn-round\" and @href=\"view_all_set.php?type=0\"]"
+      "newMontotoXPath" : "//a[@class='btn btn-sm btn-primary btn-white btn-round' and @href='view_all_set.php?type=0']"
     } ]
   }, {
     "elementId" : "btnSave",
@@ -37,9 +37,9 @@
       "label" : "",
       "href" : "query_store_page.php"
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='query_store_page.php']",
       "oldMontotoXPath" : "",
@@ -60,9 +60,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//td[@id='reporter_id_filter_target']",
       "oldMontotoXPath" : "",
@@ -83,9 +83,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//td[@id='handler_id_filter_target']",
       "oldMontotoXPath" : "",
@@ -106,9 +106,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//input[@name='filter_submit']",
       "oldMontotoXPath" : "",
@@ -129,9 +129,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//input[@id='filter-search-txt']",
       "oldMontotoXPath" : "",
@@ -152,9 +152,9 @@
       "label" : "",
       "href" : "csv_export.php"
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[normalize-space(text()) = 'CSV Export']",
       "oldMontotoXPath" : "",
@@ -175,9 +175,9 @@
       "label" : "",
       "href" : "view_all_set.php?summary=1&temporary=y"
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[4]",
       "oldMontotoXPath" : "",
@@ -198,9 +198,9 @@
       "label" : "",
       "href" : "excel_xml_export.php"
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[normalize-space(text()) = 'Excel Export']",
       "oldMontotoXPath" : "",
@@ -209,7 +209,7 @@
   }, {
     "elementId" : "category",
     "xpaths" : {
-      "robula" : "//th/a[normalize-space(text()) = 'Category']",
+      "robula" : "//th[@class='column-category']/*",
       "montoto" : "//th[@class='column-category']/a"
     },
     "attributes" : {
@@ -221,11 +221,11 @@
       "label" : "",
       "href" : "view_all_set.php?sort_add=category_id&dir_add=ASC"
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//th/a[normalize-space(text()) = 'Category']",
+      "newRobulaXPath" : "//th[@class='column-category']/*",
       "oldMontotoXPath" : "",
       "newMontotoXPath" : "//th[@class='column-category']/a"
     } ]

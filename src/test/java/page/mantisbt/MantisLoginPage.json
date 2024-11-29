@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "username",
     "xpaths" : {
-      "robula" : "//input[@id=\"username\"]",
-      "montoto" : "//input[@id=\"username\"]"
+      "robula" : "//input[@id='username']",
+      "montoto" : "//input[@id='username']"
     },
     "attributes" : {
       "ancestorXpath" : "//form[@id='login-form']",
@@ -14,19 +14,19 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@id=\"username\"]",
+      "newRobulaXPath" : "//input[@id='username']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@id=\"username\"]"
+      "newMontotoXPath" : "//input[@id='username']"
     } ]
   }, {
     "elementId" : "password",
     "xpaths" : {
-      "robula" : "//input[@id=\"password\"]",
-      "montoto" : "//input[@id=\"password\"]"
+      "robula" : "//input[@id='password']",
+      "montoto" : "//input[@id='password']"
     },
     "attributes" : {
       "ancestorXpath" : "//form[@id='login-form']",
@@ -37,19 +37,19 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@id=\"password\"]",
+      "newRobulaXPath" : "//input[@id='password']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@id=\"password\"]"
+      "newMontotoXPath" : "//input[@id='password']"
     } ]
   }, {
     "elementId" : "btnLogin",
     "xpaths" : {
-      "robula" : "//input[@class=\"width-40 pull-right btn btn-success btn-inverse bigger-110\"]",
-      "montoto" : "//input[@class=\"width-40 pull-right btn btn-success btn-inverse bigger-110\"]"
+      "robula" : "//input[@class='width-40 pull-right btn btn-success btn-inverse bigger-110']",
+      "montoto" : "//input[@class='width-40 pull-right btn btn-success btn-inverse bigger-110']"
     },
     "attributes" : {
       "ancestorXpath" : "//form[@id='login-form']",
@@ -60,13 +60,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-02",
+    "lastUpdate" : "2024-11-29",
     "history" : [ {
-      "updateDate" : "2024-11-02",
+      "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@class=\"width-40 pull-right btn btn-success btn-inverse bigger-110\"]",
+      "newRobulaXPath" : "//input[@class='width-40 pull-right btn btn-success btn-inverse bigger-110']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@class=\"width-40 pull-right btn btn-success btn-inverse bigger-110\"]"
+      "newMontotoXPath" : "//input[@class='width-40 pull-right btn btn-success btn-inverse bigger-110']"
     } ]
   } ],
   "webName" : "mantisbt",
