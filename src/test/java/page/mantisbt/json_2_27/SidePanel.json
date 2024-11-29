@@ -1,0 +1,166 @@
+{
+  "elements" : [ {
+    "elementId" : "myView",
+    "xpaths" : {
+      "robula" : "//li/a[@href='/mantisbt_2_27_0/my_view_page.php']",
+      "montoto" : "//li/a[@href='/mantisbt_2_27_0/my_view_page.php']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "my_view_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//li/a[@href='/mantisbt_2_27_0/my_view_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//li/a[@href='/mantisbt_2_27_0/my_view_page.php']"
+    } ]
+  }, {
+    "elementId" : "viewIssues",
+    "xpaths" : {
+      "robula" : "//a[@href='/mantisbt_2_27_0/view_all_bug_page.php']",
+      "montoto" : "(//body[@class='skin-3']/div[@id='main-container' and @class='main-container']/div[@id='sidebar' and @class='sidebar sidebar-fixed responsive compact ']/ul[@class='nav nav-list']/li/a)[2]"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "view_all_bug_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='/mantisbt_2_27_0/view_all_bug_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "(//body[@class='skin-3']/div[@id='main-container' and @class='main-container']/div[@id='sidebar' and @class='sidebar sidebar-fixed responsive compact ']/ul[@class='nav nav-list']/li/a)[2]"
+    } ]
+  }, {
+    "elementId" : "reportIssue",
+    "xpaths" : {
+      "robula" : "//a[@href='/mantisbt_2_27_0/bug_report_page.php']",
+      "montoto" : "(//body[@class='skin-3']/div[@id='main-container' and @class='main-container']/div[@id='sidebar' and @class='sidebar sidebar-fixed responsive compact ']/ul[@class='nav nav-list']/li/a)[3]"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "bug_report_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='/mantisbt_2_27_0/bug_report_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "(//body[@class='skin-3']/div[@id='main-container' and @class='main-container']/div[@id='sidebar' and @class='sidebar sidebar-fixed responsive compact ']/ul[@class='nav nav-list']/li/a)[3]"
+    } ]
+  }, {
+    "elementId" : "changeLog",
+    "xpaths" : {
+      "robula" : "//a[@href='/mantisbt_2_27_0/changelog_page.php']",
+      "montoto" : "//a[@href='/mantisbt_2_27_0/changelog_page.php']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "changelog_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='/mantisbt_2_27_0/changelog_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@href='/mantisbt_2_27_0/changelog_page.php']"
+    } ]
+  }, {
+    "elementId" : "roadMap",
+    "xpaths" : {
+      "robula" : "//a[@href='/mantisbt_2_27_0/roadmap_page.php']",
+      "montoto" : "//a[@href='/mantisbt_2_27_0/roadmap_page.php']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "roadmap_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='/mantisbt_2_27_0/roadmap_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@href='/mantisbt_2_27_0/roadmap_page.php']"
+    } ]
+  }, {
+    "elementId" : "summary",
+    "xpaths" : {
+      "robula" : "//a[@href='/mantisbt_2_27_0/summary_page.php']",
+      "montoto" : "//a[@href='/mantisbt_2_27_0/summary_page.php']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "summary_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='/mantisbt_2_27_0/summary_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@href='/mantisbt_2_27_0/summary_page.php']"
+    } ]
+  }, {
+    "elementId" : "manage",
+    "xpaths" : {
+      "robula" : "//a[@href='/mantisbt_2_27_0/manage_overview_page.php']",
+      "montoto" : "//a[@href='/mantisbt_2_27_0/manage_overview_page.php']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@id = 'sidebar']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "",
+      "label" : "",
+      "href" : "manage_overview_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='/mantisbt_2_27_0/manage_overview_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@href='/mantisbt_2_27_0/manage_overview_page.php']"
+    } ]
+  } ],
+  "webName" : "mantisbt",
+  "pageName" : "SidePanel"
+}

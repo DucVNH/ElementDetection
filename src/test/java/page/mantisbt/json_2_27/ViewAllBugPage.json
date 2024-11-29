@@ -1,0 +1,235 @@
+{
+  "elements" : [ {
+    "elementId" : "btnReset",
+    "xpaths" : {
+      "robula" : "//a[1][@class='btn btn-sm btn-primary btn-white btn-round']",
+      "montoto" : "//a[@class='btn btn-sm btn-primary btn-white btn-round' and @href='view_all_set.php?type=0']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class = 'filter-box']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "btn-sm",
+      "text" : "Reset",
+      "label" : "",
+      "href" : "view_all_set.php?type=0"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[1][@class='btn btn-sm btn-primary btn-white btn-round']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@class='btn btn-sm btn-primary btn-white btn-round' and @href='view_all_set.php?type=0']"
+    } ]
+  }, {
+    "elementId" : "btnSave",
+    "xpaths" : {
+      "robula" : "//a[@href='query_store_page.php']",
+      "montoto" : "//a[@class='btn btn-sm btn-primary btn-white btn-round' and @href='query_store_page.php']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class = 'filter-box']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "Save",
+      "label" : "",
+      "href" : "query_store_page.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[@href='query_store_page.php']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[@class='btn btn-sm btn-primary btn-white btn-round' and @href='query_store_page.php']"
+    } ]
+  }, {
+    "elementId" : "reporter",
+    "xpaths" : {
+      "robula" : "//td[@id='reporter_id_filter_target']",
+      "montoto" : "//td[normalize-space(text()) = 'any' and @id='reporter_id_filter_target']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class = 'table-responsive']",
+      "id" : "reporter_id_filter_target",
+      "tag" : "td",
+      "className" : "small-caption",
+      "text" : "any",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//td[@id='reporter_id_filter_target']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//td[normalize-space(text()) = 'any' and @id='reporter_id_filter_target']"
+    } ]
+  }, {
+    "elementId" : "assignedTo",
+    "xpaths" : {
+      "robula" : "//td[@id='handler_id_filter_target']",
+      "montoto" : "//td[normalize-space(text()) = 'any' and @id='handler_id_filter_target']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class = 'table-responsive']",
+      "id" : "handler_id_filter_target",
+      "tag" : "td",
+      "className" : "small-caption",
+      "text" : "any",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//td[@id='handler_id_filter_target']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//td[normalize-space(text()) = 'any' and @id='handler_id_filter_target']"
+    } ]
+  }, {
+    "elementId" : "btnApplyFilter",
+    "xpaths" : {
+      "robula" : "//input[@name='filter_submit']",
+      "montoto" : "//input[@name='filter_submit']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class = 'filter-box']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "btn",
+      "text" : "Apply Filter",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@name='filter_submit']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@name='filter_submit']"
+    } ]
+  }, {
+    "elementId" : "inputSearch",
+    "xpaths" : {
+      "robula" : "//input[@id='filter-search-txt']",
+      "montoto" : "//input[@id='filter-search-txt']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//div[@class = 'filter-box']",
+      "id" : "",
+      "tag" : "input",
+      "className" : "input-sm",
+      "text" : "Search",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//input[@id='filter-search-txt']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//input[@id='filter-search-txt']"
+    } ]
+  }, {
+    "elementId" : "btnCSVExport",
+    "xpaths" : {
+      "robula" : "//a[normalize-space(text()) = 'CSV Export']",
+      "montoto" : "//a[normalize-space(text()) = 'CSV Export']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='bug_action']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "CSV Export",
+      "label" : "",
+      "href" : "csv_export.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[normalize-space(text()) = 'CSV Export']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[normalize-space(text()) = 'CSV Export']"
+    } ]
+  }, {
+    "elementId" : "btnSummary",
+    "xpaths" : {
+      "robula" : "//a[4]",
+      "montoto" : "//a[normalize-space(text()) = 'Summary' and @class='btn btn-primary btn-white btn-round btn-sm']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='bug_action']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "Summary",
+      "label" : "",
+      "href" : "view_all_set.php?summary=1&temporary=y"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[4]",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[normalize-space(text()) = 'Summary' and @class='btn btn-primary btn-white btn-round btn-sm']"
+    } ]
+  }, {
+    "elementId" : "btnExcelExport",
+    "xpaths" : {
+      "robula" : "//a[normalize-space(text()) = 'Excel Export']",
+      "montoto" : "//a[normalize-space(text()) = 'Excel Export']"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='bug_action']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "btn",
+      "text" : "Excel Export",
+      "label" : "",
+      "href" : "excel_xml_export.php"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//a[normalize-space(text()) = 'Excel Export']",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//a[normalize-space(text()) = 'Excel Export']"
+    } ]
+  }, {
+    "elementId" : "category",
+    "xpaths" : {
+      "robula" : "//th[@class='column-category']/*",
+      "montoto" : "//th[@class='column-category']/a"
+    },
+    "attributes" : {
+      "ancestorXpath" : "//form[@id='bug_action']",
+      "id" : "",
+      "tag" : "a",
+      "className" : "",
+      "text" : "Category",
+      "label" : "",
+      "href" : "view_all_set.php?sort_add=category_id&dir_add=ASC"
+    },
+    "lastUpdate" : "2024-11-29",
+    "history" : [ {
+      "updateDate" : "2024-11-29",
+      "oldRobulaXPath" : "",
+      "newRobulaXPath" : "//th[@class='column-category']/*",
+      "oldMontotoXPath" : "",
+      "newMontotoXPath" : "//th[@class='column-category']/a"
+    } ]
+  } ],
+  "webName" : "mantisbt",
+  "pageName" : "ViewAllBugPage"
+}
