@@ -48,8 +48,8 @@ public class UtilsROBULAPlusNew {
             }
             // take the element target
             WebElement el = elements.get(0);
-            System.out.println("Element target (original): " + absoluteXPath);
-            System.out.println("Element target (used):     " + getAbsoluteXPath(el));
+            //System.out.println("Element target (original): " + absoluteXPath);
+            //System.out.println("Element target (used):     " + getAbsoluteXPath(el));
             LinkedList<XPathInfo> robustXPathLocatorsList = new LinkedList<XPathInfo>();
             LinkedList<XPathInfo> candidateXPathLocatorsList = new LinkedList<XPathInfo>();
             // at the beginning the candidateXPathLocatorsList contains only "//*"

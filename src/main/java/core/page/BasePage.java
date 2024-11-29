@@ -157,6 +157,8 @@ public class BasePage extends AbstractBasePage {
 
         long endTime = System.nanoTime(); // End time measurement
         long elapsedTime = endTime - startTime; // Calculate elapsed time
+        double timeInSec = (double) elapsedTime / 1_000_000_000;
+        logger.info(String.format("Time taken to locate element %s: %f", elementId, timeInSec));
         totalExecutionTime += elapsedTime;
         totalExecutions++;
 
@@ -305,7 +307,7 @@ public class BasePage extends AbstractBasePage {
                     isElementPresent(By.xpath(element.getAttributes().getAncestorXpath()))) ? element.getAttributes().getAncestorXpath() : "";
             for (String word : words) {
                 try {
-                    String xpath = String.format("%s//*[contains(text(), '%s') or contains(@placeholder, '%s') or contains(@value, '%s')]", ancestor, word, word);
+                    String xpath = String.format("%s//*[contains(text(), '%s') or contains(@placeholder, '%s') or contains(@value, '%s')]", ancestor, word, word, word);
                     // Find elements that contain the word
                     List<WebElement> elements = driver.findElements(By.xpath(xpath));
                     candidates.addAll(elements); // Add elements to Set to avoid duplicates
