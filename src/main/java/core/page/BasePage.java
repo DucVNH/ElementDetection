@@ -128,11 +128,13 @@ public class BasePage extends AbstractBasePage {
         long startTime = System.nanoTime(); // Start time measurement
 
         ElementLocator oldElement = getElementLocator(elementId, locators);
+        boolean useAncestorXpath = !oldElement.getAttributes().getAncestorXpath().equals("") && isElementPresent(By.xpath(oldElement.getAttributes().getAncestorXpath()));
+
         List<WebElement> idMatch = findPossibleIdMatch(oldElement);
-        List<WebElement> tagMatch = findPossibleTagMatch(oldElement);
-        List<WebElement> classMatch = findPossibleClassMatch(oldElement);
-        List<WebElement> textMatch = findPossibleTextMatch(oldElement);
-        List<WebElement> labelMatch = findPossibleLabelMatch(oldElement);
+        List<WebElement> tagMatch = findPossibleTagMatch(oldElement, useAncestorXpath);
+        List<WebElement> classMatch = findPossibleClassMatch(oldElement, useAncestorXpath);
+        List<WebElement> textMatch = findPossibleTextMatch(oldElement, useAncestorXpath);
+        List<WebElement> labelMatch = findPossibleLabelMatch(oldElement, useAncestorXpath);
         List<WebElement> hrefMatch = findPossibleHrefMatch(oldElement);
         Set<WebElement> candidates = new LinkedHashSet<>();
         if (idMatch != null) candidates.addAll(idMatch);
@@ -267,13 +269,12 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
-    public List<WebElement> findPossibleTagMatch(ElementLocator element) {
+    public List<WebElement> findPossibleTagMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getTag().equals("")) {
             return null;
         } else {
             String xpath;
-            if (!element.getAttributes().getAncestorXpath().equals("") &&
-                    isElementPresent(By.xpath(element.getAttributes().getAncestorXpath()))) {
+            if (useAncestorXpath) {
                 xpath = element.getAttributes().getAncestorXpath() + "//" + element.getAttributes().getTag();
             } else {
                 xpath = "//" + element.getAttributes().getTag();
@@ -282,13 +283,12 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
-    public List<WebElement> findPossibleClassMatch(ElementLocator element) {
+    public List<WebElement> findPossibleClassMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getClassName().equals("")) {
             return null;
         } else {
             String xpath;
-            if (!element.getAttributes().getAncestorXpath().equals("") &&
-                    isElementPresent(By.xpath(element.getAttributes().getAncestorXpath()))) {
+            if (useAncestorXpath) {
                 xpath = String.format("%s//*[contains(@class, '%s')]", element.getAttributes().getAncestorXpath(), element.getAttributes().getClassName());
             } else {
                 xpath = String.format("//*[contains(@class, '%s')]", element.getAttributes().getClassName());
@@ -297,14 +297,13 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
-    public List<WebElement> findPossibleTextMatch(ElementLocator element) {
+    public List<WebElement> findPossibleTextMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getText().equals("")) {
             return null;
         } else {
             String[] words = element.getAttributes().getText().split(" ");
             Set<WebElement> candidates = new LinkedHashSet<>();
-            String ancestor = (!element.getAttributes().getAncestorXpath().equals("") &&
-                    isElementPresent(By.xpath(element.getAttributes().getAncestorXpath()))) ? element.getAttributes().getAncestorXpath() : "";
+            String ancestor = (useAncestorXpath) ? element.getAttributes().getAncestorXpath() : "";
             for (String word : words) {
                 try {
                     String xpath = String.format("%s//*[contains(text(), '%s') or contains(@placeholder, '%s') or contains(@value, '%s')]", ancestor, word, word, word);
@@ -319,14 +318,13 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
-    public List<WebElement> findPossibleLabelMatch(ElementLocator element) {
+    public List<WebElement> findPossibleLabelMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getLabel().equals("")) {
             return null;
         } else {
             String[] words = element.getAttributes().getLabel().split(" ");
             Set<WebElement> candidates = new LinkedHashSet<>();
-            String ancestor = (!element.getAttributes().getAncestorXpath().equals("") &&
-                    isElementPresent(By.xpath(element.getAttributes().getAncestorXpath()))) ? element.getAttributes().getAncestorXpath() : "";
+            String ancestor = (useAncestorXpath) ? element.getAttributes().getAncestorXpath() : "";
             for (String word : words) {
                 try {
                     String xpath = String.format("%s//label[contains(text(), '%s')]/parent::div/parent::div//*", ancestor, word);

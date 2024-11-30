@@ -3,8 +3,8 @@ package testcase;
 import org.testng.asserts.SoftAssert;
 import page.admidio.AdmidioLoginPage;
 import page.admidio.DocumentsAndFilesPage;
+import page.admidio.AnnouncementsPage;
 import page.admidio.GroupsAndRolesPage;
-import page.admidio.MembersPage;
 import page.automationintesting.SeleniumTestPage;
 import core.testng.BaseTest;
 import org.testng.annotations.Test;
@@ -36,7 +36,7 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
     AdmidioLoginPage admidioLoginPage = new AdmidioLoginPage(webDriver);
     DocumentsAndFilesPage documentsAndFilesPage = new DocumentsAndFilesPage(webDriver);
     GroupsAndRolesPage groupsAndRolesPage = new GroupsAndRolesPage(webDriver);
-    MembersPage membersPage = new MembersPage(webDriver);
+    AnnouncementsPage announcementsPage = new AnnouncementsPage(webDriver);
 
     @Test
     public void tC_T0_E2E_WEB_DEMO_000() {
@@ -89,7 +89,7 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         documentsAndFilesPage.verifyPage(softAssert);
         admidioSidePanel.goToGroupsAndRoles();
         groupsAndRolesPage.verifyPage(softAssert);
-        admidioSidePanel.goToMembers();
-        membersPage.verifyPage(softAssert);
+        admidioSidePanel.goToAnnouncements();
+        announcementsPage.verifyPage(softAssert);
     }
 }
