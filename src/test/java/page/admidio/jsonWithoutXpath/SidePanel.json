@@ -10,7 +10,7 @@
       "id" : "overview",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Overview",
       "label" : "",
       "href" : "overview.php"
     },
@@ -27,7 +27,7 @@
       "id" : "announcements",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Announcements",
       "label" : "",
       "href" : "announcements.php"
     },
@@ -44,7 +44,7 @@
       "id" : "documents-files",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Documents & Files",
       "label" : "",
       "href" : "documents_files.php"
     },
@@ -61,7 +61,7 @@
       "id" : "mail",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Messages",
       "label" : "",
       "href" : "messages.php"
     },
@@ -78,7 +78,7 @@
       "id" : "photo",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Photos",
       "label" : "",
       "href" : "photos.php"
     },
@@ -95,7 +95,7 @@
       "id" : "groups-roles",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Groups & roles",
       "label" : "",
       "href" : "groups_roles.php"
     },
@@ -112,7 +112,7 @@
       "id" : "dates",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Events",
       "label" : "",
       "href" : "dates.php"
     },
@@ -129,7 +129,7 @@
       "id" : "category-report",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Category report",
       "label" : "",
       "href" : "category_report.php"
     },
@@ -146,7 +146,7 @@
       "id" : "weblinks",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Web links",
       "label" : "",
       "href" : "links.php"
     },
@@ -163,7 +163,7 @@
       "id" : "newreg",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "New registrations",
       "label" : "",
       "href" : "registration.php"
     },
@@ -180,7 +180,7 @@
       "id" : "usrmgt",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Members",
       "label" : "",
       "href" : "members.php"
     },
@@ -197,7 +197,7 @@
       "id" : "dbback",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Database backup",
       "label" : "",
       "href" : "backup.php"
     },
@@ -214,7 +214,7 @@
       "id" : "menu",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Menu",
       "label" : "",
       "href" : "menu.php"
     },
@@ -231,7 +231,7 @@
       "id" : "orgprop",
       "tag" : "a",
       "className" : "nav-link",
-      "text" : "",
+      "text" : "Preferences",
       "label" : "",
       "href" : "preferences.php"
     },
