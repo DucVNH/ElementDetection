@@ -14,9 +14,9 @@
       "label" : "",
       "href" : "groups_roles_new.php"
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@id='menu_item_groups_roles_add']",
       "oldMontotoXPath" : "",
@@ -37,9 +37,9 @@
       "label" : "",
       "href" : "groups_roles.php"
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@id='menu_item_groups_roles_show_permissions']",
       "oldMontotoXPath" : "",
@@ -60,9 +60,9 @@
       "label" : "",
       "href" : "categories.php"
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@id='menu_item_groups_roles_maintain_categories']",
       "oldMontotoXPath" : "",
@@ -83,9 +83,9 @@
       "label" : "",
       "href" : "mylist.php"
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@id='menu_item_groups_own_list']",
       "oldMontotoXPath" : "",
@@ -106,9 +106,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//select",
       "oldMontotoXPath" : "",
@@ -129,9 +129,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//h5[normalize-space(text()) = 'Administrator']",
       "oldMontotoXPath" : "",
@@ -152,9 +152,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
+    "lastUpdate" : "2024-12-01",
     "history" : [ {
-      "updateDate" : "2024-11-30",
+      "updateDate" : "2024-12-01",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//h5[normalize-space(text()) = 'Member']",
       "oldMontotoXPath" : "",

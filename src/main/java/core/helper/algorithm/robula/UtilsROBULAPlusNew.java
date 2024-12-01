@@ -75,12 +75,6 @@ public class UtilsROBULAPlusNew {
                     }
                 }
                 count++;
-
-                if (count % 10 == 0) {
-                    System.out.print(count + " - ");
-                    if (count % 200 == 0)
-                        System.out.print("\n");
-                }
             }
             return robustXPathLocatorsList;
         }
