@@ -11,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -128,7 +129,8 @@ public class BasePage extends AbstractBasePage {
         long startTime = System.nanoTime(); // Start time measurement
 
         ElementLocator oldElement = getElementLocator(elementId, locators);
-        boolean useAncestorXpath = !oldElement.getAttributes().getAncestorXpath().equals("") && isElementPresent(By.xpath(oldElement.getAttributes().getAncestorXpath()));
+        boolean useAncestorXpath = !oldElement.getAttributes().getAncestorXpath().equals("") &&
+                isElementPresent(By.xpath(oldElement.getAttributes().getAncestorXpath()), Duration.ofSeconds(5));
 
         List<WebElement> idMatch = findPossibleIdMatch(oldElement);
         List<WebElement> tagMatch = findPossibleTagMatch(oldElement, useAncestorXpath);
