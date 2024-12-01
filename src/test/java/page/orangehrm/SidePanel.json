@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "admin",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/admin/viewAdminModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/admin/viewAdminModule']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/admin/viewAdminModule']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/admin/viewAdminModule']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -18,15 +18,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/admin/viewAdminModule']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/admin/viewAdminModule']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/admin/viewAdminModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/admin/viewAdminModule']"
     } ]
   }, {
     "elementId" : "pim",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/pim/viewPimModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/pim/viewPimModule']"
+      "robula" : "//a[@class='oxd-main-menu-item active']",
+      "montoto" : "//a[@class='oxd-main-menu-item active']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -41,15 +41,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/pim/viewPimModule']",
+      "newRobulaXPath" : "//a[@class='oxd-main-menu-item active']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/pim/viewPimModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item active']"
     } ]
   }, {
     "elementId" : "leave",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/leave/viewLeaveModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/leave/viewLeaveModule']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/leave/viewLeaveModule']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/leave/viewLeaveModule']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -64,15 +64,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/leave/viewLeaveModule']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/leave/viewLeaveModule']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/leave/viewLeaveModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/leave/viewLeaveModule']"
     } ]
   }, {
     "elementId" : "time",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/time/viewTimeModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/time/viewTimeModule']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/time/viewTimeModule']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/time/viewTimeModule']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -87,15 +87,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/time/viewTimeModule']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/time/viewTimeModule']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/time/viewTimeModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/time/viewTimeModule']"
     } ]
   }, {
     "elementId" : "recruitment",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/recruitment/viewRecruitmentModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/recruitment/viewRecruitmentModule']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/recruitment/viewRecruitmentModule']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/recruitment/viewRecruitmentModule']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -110,15 +110,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/recruitment/viewRecruitmentModule']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/recruitment/viewRecruitmentModule']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/recruitment/viewRecruitmentModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/recruitment/viewRecruitmentModule']"
     } ]
   }, {
     "elementId" : "myInfo",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/pim/viewMyDetails']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/pim/viewMyDetails']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/pim/viewMyDetails']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/pim/viewMyDetails']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -133,15 +133,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/pim/viewMyDetails']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/pim/viewMyDetails']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/pim/viewMyDetails']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/pim/viewMyDetails']"
     } ]
   }, {
     "elementId" : "performance",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/performance/viewPerformanceModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/performance/viewPerformanceModule']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/performance/viewPerformanceModule']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/performance/viewPerformanceModule']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -156,15 +156,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/performance/viewPerformanceModule']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/performance/viewPerformanceModule']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/performance/viewPerformanceModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/performance/viewPerformanceModule']"
     } ]
   }, {
     "elementId" : "dashboard",
     "xpaths" : {
-      "robula" : "//a[@class='oxd-main-menu-item active']",
-      "montoto" : "//a[@class='oxd-main-menu-item active']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/dashboard/index']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/dashboard/index']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -179,15 +179,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@class='oxd-main-menu-item active']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/dashboard/index']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item active']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/dashboard/index']"
     } ]
   }, {
     "elementId" : "directory",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/directory/viewDirectory']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/directory/viewDirectory']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/directory/viewDirectory']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/directory/viewDirectory']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -202,15 +202,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/directory/viewDirectory']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/directory/viewDirectory']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/directory/viewDirectory']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/directory/viewDirectory']"
     } ]
   }, {
     "elementId" : "maintenance",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/maintenance/viewMaintenanceModule']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/maintenance/viewMaintenanceModule']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/maintenance/purgeEmployee']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/maintenance/purgeEmployee']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -225,15 +225,15 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/maintenance/viewMaintenanceModule']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/maintenance/purgeEmployee']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/maintenance/viewMaintenanceModule']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/maintenance/purgeEmployee']"
     } ]
   }, {
     "elementId" : "buzz",
     "xpaths" : {
-      "robula" : "//a[@href='/orangehrm_5_7/web/index.php/buzz/viewBuzz']",
-      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/buzz/viewBuzz']"
+      "robula" : "//a[@href='/orangehrm_5_0/web/index.php/buzz/viewBuzz']",
+      "montoto" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/buzz/viewBuzz']"
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-sidepanel-body']",
@@ -248,9 +248,9 @@
     "history" : [ {
       "updateDate" : "2024-11-29",
       "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='/orangehrm_5_7/web/index.php/buzz/viewBuzz']",
+      "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/buzz/viewBuzz']",
       "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_7/web/index.php/buzz/viewBuzz']"
+      "newMontotoXPath" : "//a[@class='oxd-main-menu-item' and @href='/orangehrm_5_0/web/index.php/buzz/viewBuzz']"
     } ]
   } ],
   "webName" : "orangehrm",
