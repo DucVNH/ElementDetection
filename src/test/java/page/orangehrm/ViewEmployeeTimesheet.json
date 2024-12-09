@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "inputEmployeeName",
     "xpaths" : {
-      "robula" : "//input[@placeholder='Type for hints...']",
-      "montoto" : "//input[@placeholder='Type for hints...']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-card-container']",
@@ -14,19 +14,13 @@
       "label" : "Employee Name",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@placeholder='Type for hints...']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@placeholder='Type for hints...']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnView",
     "xpaths" : {
-      "robula" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']",
-      "montoto" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-card-container']",
@@ -37,19 +31,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "columnEmployeeName",
     "xpaths" : {
-      "robula" : "//div[1][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[1]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -60,19 +48,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[1][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[1]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "columnTimesheetPeriod",
     "xpaths" : {
-      "robula" : "//div[2][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[2]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -83,19 +65,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[2][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[2]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "columnActions",
     "xpaths" : {
-      "robula" : "//div[@style='flex: 1 1 20%;']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[3]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -106,14 +82,8 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[@style='flex: 1 1 20%;']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[3]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   } ],
   "webName" : "orangehrm",
   "pageName" : "ViewEmployeeTimesheet"

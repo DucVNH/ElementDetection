@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "inputUsername",
     "xpaths" : {
-      "robula" : "//input[@name='username']",
-      "montoto" : "//input[@name='username']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-login-form']",
@@ -14,19 +14,13 @@
       "label" : "Username",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@name='username']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@name='username']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "inputPassword",
     "xpaths" : {
-      "robula" : "//input[@name='password']",
-      "montoto" : "//input[@name='password']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-login-form']",
@@ -37,19 +31,13 @@
       "label" : "Password",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@name='password']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@name='password']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnLogin",
     "xpaths" : {
-      "robula" : "//button",
-      "montoto" : "//button"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-login-form']",
@@ -60,14 +48,8 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//button",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//button"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   } ],
   "webName" : "orangehrm",
   "pageName" : "OrangeHRMLoginPage"

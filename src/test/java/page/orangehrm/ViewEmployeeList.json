@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "employeeInfo",
     "xpaths" : {
-      "robula" : "//h5",
-      "montoto" : "//h5"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-header']",
@@ -14,19 +14,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//h5",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//h5"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "inputEmployeeName",
     "xpaths" : {
-      "robula" : "//div[1]/*/*/*/*/input[@placeholder='Type for hints...']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-autocomplete-wrapper']/div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']/input[@placeholder='Type for hints...'])[1]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -37,19 +31,13 @@
       "label" : "Employee Name",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[1]/*/*/*/*/input[@placeholder='Type for hints...']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-autocomplete-wrapper']/div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']/input[@placeholder='Type for hints...'])[1]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "inputEmployeeId",
     "xpaths" : {
-      "robula" : "//div[@class='']/input",
-      "montoto" : "//div[@class='oxd-input-group oxd-input-field-bottom-space']/div/input"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -60,19 +48,13 @@
       "label" : "Employee Id",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[@class='']/input",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//div[@class='oxd-input-group oxd-input-field-bottom-space']/div/input"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "selectEmploymentStatus",
     "xpaths" : {
-      "robula" : "//div[3]/*/*/*/*/div[normalize-space(text()) = '-- Select --']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-select-wrapper']/div[@class='oxd-select-text oxd-select-text--active']/div[normalize-space(text()) = '-- Select --' and @class='oxd-select-text-input'])[1]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -83,19 +65,13 @@
       "label" : "Employment Status",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[3]/*/*/*/*/div[normalize-space(text()) = '-- Select --']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-select-wrapper']/div[@class='oxd-select-text oxd-select-text--active']/div[normalize-space(text()) = '-- Select --' and @class='oxd-select-text-input'])[1]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "selectInclude",
     "xpaths" : {
-      "robula" : "//div[normalize-space(text()) = 'Current Employees Only']",
-      "montoto" : "//div[normalize-space(text()) = 'Current Employees Only']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -106,19 +82,13 @@
       "label" : "Include",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[normalize-space(text()) = 'Current Employees Only']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//div[normalize-space(text()) = 'Current Employees Only']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "inputSupervisorName",
     "xpaths" : {
-      "robula" : "//div[5]/*/*/*/*/input",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-autocomplete-wrapper']/div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']/input[@placeholder='Type for hints...'])[2]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -129,19 +99,13 @@
       "label" : "Supervisor Name",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[5]/*/*/*/*/input",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-autocomplete-wrapper']/div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']/input[@placeholder='Type for hints...'])[2]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "selectJobTitle",
     "xpaths" : {
-      "robula" : "//div[6]/*/*/*/*/div[normalize-space(text()) = '-- Select --']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-select-wrapper']/div[@class='oxd-select-text oxd-select-text--active']/div[normalize-space(text()) = '-- Select --' and @class='oxd-select-text-input'])[2]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -152,19 +116,13 @@
       "label" : "Job Title",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[6]/*/*/*/*/div[normalize-space(text()) = '-- Select --']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-select-wrapper']/div[@class='oxd-select-text oxd-select-text--active']/div[normalize-space(text()) = '-- Select --' and @class='oxd-select-text-input'])[2]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "selectSubUnit",
     "xpaths" : {
-      "robula" : "//div[7]/*/*/*/*/div[normalize-space(text()) = '-- Select --']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-select-wrapper']/div[@class='oxd-select-text oxd-select-text--active']/div[normalize-space(text()) = '-- Select --' and @class='oxd-select-text-input'])[3]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -175,19 +133,13 @@
       "label" : "Sub Unit",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[7]/*/*/*/*/div[normalize-space(text()) = '-- Select --']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='oxd-table-filter']/div[@class='oxd-table-filter-area']/form[@class='oxd-form']/div[@class='oxd-form-row']/div[@class='oxd-grid-4 orangehrm-full-width-grid']/div[@class='oxd-grid-item']/div[@class='oxd-input-group oxd-input-field-bottom-space']/div/div[@class='oxd-select-wrapper']/div[@class='oxd-select-text oxd-select-text--active']/div[normalize-space(text()) = '-- Select --' and @class='oxd-select-text-input'])[3]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnReset",
     "xpaths" : {
-      "robula" : "//button[@class='oxd-button oxd-button--medium oxd-button--ghost']",
-      "montoto" : "//button[@class='oxd-button oxd-button--medium oxd-button--ghost']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -198,19 +150,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--ghost']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--ghost']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnSearch",
     "xpaths" : {
-      "robula" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']",
-      "montoto" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='oxd-table-filter-area']",
@@ -221,19 +167,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnAdd",
     "xpaths" : {
-      "robula" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']",
-      "montoto" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -244,19 +184,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "columnLastName",
     "xpaths" : {
-      "robula" : "//div[4][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table orangehrm-employee-list' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[4]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -267,19 +201,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[4][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table orangehrm-employee-list' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[4]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "columnActions",
     "xpaths" : {
-      "robula" : "//div[9][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table orangehrm-employee-list' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[9]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -290,19 +218,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[9][@class='oxd-table-header-cell oxd-padding-cell oxd-table-th']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table orangehrm-employee-list' and @role='table']/div[@class='oxd-table-header' and @role='rowgroup']/div[@class='oxd-table-row oxd-table-row--with-border' and @role='row']/div[@class='oxd-table-header-cell oxd-padding-cell oxd-table-th' and @role='columnheader'])[9]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "rowNguyen",
     "xpaths" : {
-      "robula" : "//div[2]/*/div[3]",
-      "montoto" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table orangehrm-employee-list' and @role='table']/div[@class='oxd-table-body' and @role='rowgroup']/div[@class='oxd-table-card']/div[@class='oxd-table-row oxd-table-row--with-border oxd-table-row--clickable' and @role='row']/div[@role='cell'])[12]"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='orangehrm-paper-container']",
@@ -313,14 +235,8 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[2]/*/div[3]",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "(//body/div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']/div[@class='orangehrm-background-container']/div[@class='orangehrm-paper-container']/div[@class='orangehrm-container']/div[@class='oxd-table orangehrm-employee-list' and @role='table']/div[@class='oxd-table-body' and @role='rowgroup']/div[@class='oxd-table-card']/div[@class='oxd-table-row oxd-table-row--with-border oxd-table-row--clickable' and @role='row']/div[@role='cell'])[12]"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   } ],
   "webName" : "orangehrm",
   "pageName" : "ViewEmployeeList"

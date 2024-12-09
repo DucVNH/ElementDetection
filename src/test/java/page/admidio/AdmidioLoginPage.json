@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "inputUsername",
     "xpaths" : {
-      "robula" : "//input[@id='plg_usr_login_name']",
-      "montoto" : "//input[@id='plg_usr_login_name']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id='plugin_login_form']",
@@ -14,19 +14,13 @@
       "label" : "Username",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@id='plg_usr_login_name']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@id='plg_usr_login_name']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "inputPassword",
     "xpaths" : {
-      "robula" : "//input[@id='plg_usr_password']",
-      "montoto" : "//input[@id='plg_usr_password']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id='plugin_login_form']",
@@ -37,19 +31,13 @@
       "label" : "Password",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@id='plg_usr_password']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@id='plg_usr_password']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnSignIn",
     "xpaths" : {
-      "robula" : "//button[@id='next_page']",
-      "montoto" : "//button[@id='next_page']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id='plugin_login_form']",
@@ -60,14 +48,8 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//button[@id='next_page']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//button[@id='next_page']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   } ],
   "webName" : "admidio",
   "pageName" : "AdmidioLoginPage"

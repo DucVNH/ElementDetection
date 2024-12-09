@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "btnAddEntry",
     "xpaths" : {
-      "robula" : "//a[@id='menu_item_announcement_add']",
-      "montoto" : "//a[@id='menu_item_announcement_add']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='admidio-content-header']",
@@ -14,19 +14,13 @@
       "label" : "",
       "href" : "announcements_new.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='menu_item_announcement_add']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='menu_item_announcement_add']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "btnEditCategories",
     "xpaths" : {
-      "robula" : "//a[@id='menu_item_announcement_categories']",
-      "montoto" : "//a[@id='menu_item_announcement_categories']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@class='admidio-content-header']",
@@ -37,19 +31,13 @@
       "label" : "",
       "href" : "categories.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='menu_item_announcement_categories']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='menu_item_announcement_categories']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "selectCategory",
     "xpaths" : {
-      "robula" : "//select",
-      "montoto" : "//select"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -60,19 +48,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//select",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//select"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "loremIpsumHeader",
     "xpaths" : {
-      "robula" : "//div[@id='ann_720bee13-1f00-45d2-9e75-7311c16655dd']/div[@class='card-header']",
-      "montoto" : "//div[@id='ann_720bee13-1f00-45d2-9e75-7311c16655dd']/div[@class='card-header']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id = 'content']",
@@ -83,19 +65,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[@id='ann_720bee13-1f00-45d2-9e75-7311c16655dd']/div[@class='card-header']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//div[@id='ann_720bee13-1f00-45d2-9e75-7311c16655dd']/div[@class='card-header']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "loremIpsumBody",
     "xpaths" : {
-      "robula" : "//p[normalize-space(text()) = 'Lorem ipsum']",
-      "montoto" : "//p[normalize-space(text()) = 'Lorem ipsum']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id = 'content']",
@@ -106,19 +82,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//p[normalize-space(text()) = 'Lorem ipsum']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//p[normalize-space(text()) = 'Lorem ipsum']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "testHeader",
     "xpaths" : {
-      "robula" : "//div[@id='ann_0b50b8f1-b9aa-448f-9ba4-009ad5c2e1a5']/div[@class='card-header']",
-      "montoto" : "//div[@id='ann_0b50b8f1-b9aa-448f-9ba4-009ad5c2e1a5']/div[@class='card-header']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id = 'content']",
@@ -129,19 +99,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//div[@id='ann_0b50b8f1-b9aa-448f-9ba4-009ad5c2e1a5']/div[@class='card-header']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//div[@id='ann_0b50b8f1-b9aa-448f-9ba4-009ad5c2e1a5']/div[@class='card-header']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "testBody",
     "xpaths" : {
-      "robula" : "//p[normalize-space(text()) = 'Test 1']",
-      "montoto" : "//p[normalize-space(text()) = 'Test 1']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id = 'content']",
@@ -152,14 +116,8 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//p[normalize-space(text()) = 'Test 1']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//p[normalize-space(text()) = 'Test 1']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   } ],
   "webName" : "admidio",
   "pageName" : "AnnouncementsPage"

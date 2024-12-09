@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "overview",
     "xpaths" : {
-      "robula" : "//a[@id='overview']",
-      "montoto" : "//a[@id='overview']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -14,19 +14,13 @@
       "label" : "",
       "href" : "overview.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='overview']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='overview']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "announcements",
     "xpaths" : {
-      "robula" : "//a[@id='announcements']",
-      "montoto" : "//a[@id='announcements']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -37,19 +31,13 @@
       "label" : "",
       "href" : "announcements.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='announcements']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='announcements']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "docsAndFiles",
     "xpaths" : {
-      "robula" : "//a[@id='documents-files']",
-      "montoto" : "//a[@id='documents-files']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -60,19 +48,13 @@
       "label" : "",
       "href" : "documents_files.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='documents-files']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='documents-files']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "messages",
     "xpaths" : {
-      "robula" : "//a[@id='mail']",
-      "montoto" : "//a[@id='mail']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -83,19 +65,13 @@
       "label" : "",
       "href" : "messages.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='mail']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='mail']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "photos",
     "xpaths" : {
-      "robula" : "//a[@id='photo']",
-      "montoto" : "//a[@id='photo']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -106,19 +82,13 @@
       "label" : "",
       "href" : "photos.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='photo']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='photo']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "groupsAndRoles",
     "xpaths" : {
-      "robula" : "//a[@id='groups-roles']",
-      "montoto" : "//a[@id='groups-roles']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -129,19 +99,13 @@
       "label" : "",
       "href" : "groups_roles.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='groups-roles']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='groups-roles']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "events",
     "xpaths" : {
-      "robula" : "//a[@id='dates']",
-      "montoto" : "//a[@id='dates']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -152,19 +116,13 @@
       "label" : "",
       "href" : "dates.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='dates']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='dates']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "categoryReport",
     "xpaths" : {
-      "robula" : "//a[@id='category-report']",
-      "montoto" : "//a[@id='category-report']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -175,19 +133,13 @@
       "label" : "",
       "href" : "category_report.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='category-report']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='category-report']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "webLinks",
     "xpaths" : {
-      "robula" : "//a[@id='weblinks']",
-      "montoto" : "//a[@id='weblinks']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -198,19 +150,13 @@
       "label" : "",
       "href" : "links.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='weblinks']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='weblinks']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "newRegistrations",
     "xpaths" : {
-      "robula" : "//a[@id='newreg']",
-      "montoto" : "//a[@id='newreg']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -221,19 +167,13 @@
       "label" : "",
       "href" : "registration.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='newreg']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='newreg']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "members",
     "xpaths" : {
-      "robula" : "//a[@id='usrmgt']",
-      "montoto" : "//a[@id='usrmgt']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -244,19 +184,13 @@
       "label" : "",
       "href" : "members.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='usrmgt']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='usrmgt']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "databaseBackup",
     "xpaths" : {
-      "robula" : "//a[@id='dbback']",
-      "montoto" : "//a[@id='dbback']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -267,19 +201,13 @@
       "label" : "",
       "href" : "backup.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='dbback']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='dbback']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "menu",
     "xpaths" : {
-      "robula" : "//a[@id='menu']",
-      "montoto" : "//a[@id='menu']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -290,19 +218,13 @@
       "label" : "",
       "href" : "menu.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='menu']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='menu']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   }, {
     "elementId" : "preferences",
     "xpaths" : {
-      "robula" : "//a[@id='orgprop']",
-      "montoto" : "//a[@id='orgprop']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//nav[@id='admidio-main-menu']",
@@ -313,14 +235,8 @@
       "label" : "",
       "href" : "preferences.php"
     },
-    "lastUpdate" : "2024-11-30",
-    "history" : [ {
-      "updateDate" : "2024-11-30",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@id='orgprop']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[@id='orgprop']"
-    } ]
+    "lastUpdate" : "",
+    "history" : []
   } ],
   "webName" : "admidio",
   "pageName" : "SidePanel"
