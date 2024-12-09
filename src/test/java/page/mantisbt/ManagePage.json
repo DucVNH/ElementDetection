@@ -2,8 +2,8 @@
   "elements" : [ {
     "elementId" : "manageProjects",
     "xpaths" : {
-      "robula" : "//a[normalize-space(text()) = 'Manage Projects']",
-      "montoto" : "//a[normalize-space(text()) = 'Manage Projects']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -14,19 +14,13 @@
       "label" : "",
       "href" : "manage_proj_page.php"
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[normalize-space(text()) = 'Manage Projects']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'Manage Projects']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "testProject",
     "xpaths" : {
-      "robula" : "//a[@href='manage_proj_edit_page.php?project_id=1']",
-      "montoto" : "//a[normalize-space(text()) = 'TestProject' and @href='manage_proj_edit_page.php?project_id=1']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -37,19 +31,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[@href='manage_proj_edit_page.php?project_id=1']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'TestProject' and @href='manage_proj_edit_page.php?project_id=1']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "testCategory",
     "xpaths" : {
-      "robula" : "//td[normalize-space(text()) = 'Test']",
-      "montoto" : "//td[normalize-space(text()) = 'Test']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id='categories']",
@@ -60,19 +48,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//td[normalize-space(text()) = 'Test']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//td[normalize-space(text()) = 'Test']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "addCategoryBtn",
     "xpaths" : {
-      "robula" : "//input[@value='Add Category']",
-      "montoto" : "//input[@class='btn btn-primary btn-sm btn-white btn-round' and @type='submit' and @value='Add Category']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//div[@id='categories']",
@@ -83,19 +65,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@value='Add Category']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@class='btn btn-primary btn-sm btn-white btn-round' and @type='submit' and @value='Add Category']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "manageTags",
     "xpaths" : {
-      "robula" : "//a[normalize-space(text()) = 'Manage Tags']",
-      "montoto" : "//a[normalize-space(text()) = 'Manage Tags']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -106,19 +82,13 @@
       "label" : "",
       "href" : "manage_tags_page.php"
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[normalize-space(text()) = 'Manage Tags']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'Manage Tags']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "regressionTag",
     "xpaths" : {
-      "robula" : "//a[normalize-space(text()) = 'Regression']",
-      "montoto" : "//a[normalize-space(text()) = 'Regression']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -129,19 +99,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[normalize-space(text()) = 'Regression']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'Regression']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "createTagBtn",
     "xpaths" : {
-      "robula" : "//input[@name='config_set']",
-      "montoto" : "//input[@name='config_set']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "//form[@id='manage-tags-create-form']",
@@ -152,19 +116,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@name='config_set']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@name='config_set']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "manageCustomFields",
     "xpaths" : {
-      "robula" : "//a[normalize-space(text()) = 'Manage Custom Fields']",
-      "montoto" : "//a[normalize-space(text()) = 'Manage Custom Fields']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -175,19 +133,13 @@
       "label" : "",
       "href" : "manage_custom_field_page.php"
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[normalize-space(text()) = 'Manage Custom Fields']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'Manage Custom Fields']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "ipsumField",
     "xpaths" : {
-      "robula" : "//a[normalize-space(text()) = 'Ipsum']",
-      "montoto" : "//a[normalize-space(text()) = 'Ipsum']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -198,19 +150,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[normalize-space(text()) = 'Ipsum']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'Ipsum']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "loremField",
     "xpaths" : {
-      "robula" : "//a[normalize-space(text()) = 'Lorem']",
-      "montoto" : "//a[normalize-space(text()) = 'Lorem']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -221,19 +167,13 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//a[normalize-space(text()) = 'Lorem']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//a[normalize-space(text()) = 'Lorem']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   }, {
     "elementId" : "newCustomFieldBtn",
     "xpaths" : {
-      "robula" : "//input[@class='btn btn-primary btn-sm btn-white btn-round']",
-      "montoto" : "//input[@class='btn btn-primary btn-sm btn-white btn-round']"
+      "robula" : "",
+      "montoto" : ""
     },
     "attributes" : {
       "ancestorXpath" : "",
@@ -244,14 +184,8 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-11-29",
-    "history" : [ {
-      "updateDate" : "2024-11-29",
-      "oldRobulaXPath" : "",
-      "newRobulaXPath" : "//input[@class='btn btn-primary btn-sm btn-white btn-round']",
-      "oldMontotoXPath" : "",
-      "newMontotoXPath" : "//input[@class='btn btn-primary btn-sm btn-white btn-round']"
-    } ]
+    "lastUpdate" : "2024-11-04",
+    "history" : []
   } ],
   "webName" : "mantisbt",
   "pageName" : "ManagePage"

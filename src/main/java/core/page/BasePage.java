@@ -231,15 +231,15 @@ public class BasePage extends AbstractBasePage {
 
         String elementText = element.getText();
         String elementPlaceholder = element.getAttribute("placeholder");
-        if (!oldElement.getAttributes().getText().equals("") && elementText != null &&
+        if (!oldElement.getAttributes().getText().equals("") && elementText != null && !elementText.equals("") &&
                 (elementText.contains(oldElement.getAttributes().getText()) || oldElement.getAttributes().getText().contains(elementText))) {
             score += textWeight;
         }
-        if (!oldElement.getAttributes().getText().equals("") && elementText != null &&
+        if (!oldElement.getAttributes().getText().equals("") && elementText != null && !elementText.equals("") &&
                 elementText.equals(oldElement.getAttributes().getText())) {
             score += textWeight;
         }
-        if (!oldElement.getAttributes().getText().equals("") && elementPlaceholder != null &&
+        if (!oldElement.getAttributes().getText().equals("") && elementPlaceholder != null && !elementText.equals("") &&
                 (elementPlaceholder.contains(oldElement.getAttributes().getText()) || oldElement.getAttributes().getText().contains(elementPlaceholder))) {
             score += textWeight;
         }
