@@ -14,9 +14,9 @@
       "label" : "",
       "href" : "viewAdminModule"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/admin/viewAdminModule']",
       "oldMontotoXPath" : "",
@@ -37,9 +37,9 @@
       "label" : "",
       "href" : "viewPimModule"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@class='oxd-main-menu-item active']",
       "oldMontotoXPath" : "",
@@ -60,9 +60,9 @@
       "label" : "",
       "href" : "viewLeaveModule"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/leave/viewLeaveModule']",
       "oldMontotoXPath" : "",
@@ -83,9 +83,9 @@
       "label" : "",
       "href" : "viewTimeModule"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/time/viewTimeModule']",
       "oldMontotoXPath" : "",
@@ -106,9 +106,9 @@
       "label" : "",
       "href" : "viewRecruitmentModule"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/recruitment/viewRecruitmentModule']",
       "oldMontotoXPath" : "",
@@ -129,9 +129,9 @@
       "label" : "",
       "href" : "viewMyDetails"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/pim/viewMyDetails']",
       "oldMontotoXPath" : "",
@@ -152,9 +152,9 @@
       "label" : "",
       "href" : "viewPerformanceModule"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/performance/viewPerformanceModule']",
       "oldMontotoXPath" : "",
@@ -175,9 +175,9 @@
       "label" : "",
       "href" : "dashboard"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/dashboard/index']",
       "oldMontotoXPath" : "",
@@ -198,9 +198,9 @@
       "label" : "",
       "href" : "viewDirectory"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/directory/viewDirectory']",
       "oldMontotoXPath" : "",
@@ -221,9 +221,9 @@
       "label" : "",
       "href" : "maintenance"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/maintenance/purgeEmployee']",
       "oldMontotoXPath" : "",
@@ -244,9 +244,9 @@
       "label" : "",
       "href" : "viewBuzz"
     },
-    "lastUpdate" : "2024-11-29",
+    "lastUpdate" : "2024-12-09",
     "history" : [ {
-      "updateDate" : "2024-11-29",
+      "updateDate" : "2024-12-09",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@href='/orangehrm_5_0/web/index.php/buzz/viewBuzz']",
       "oldMontotoXPath" : "",
