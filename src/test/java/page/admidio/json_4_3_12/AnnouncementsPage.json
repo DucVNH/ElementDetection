@@ -14,9 +14,9 @@
       "label" : "",
       "href" : "announcements_new.php"
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@id='menu_item_announcement_add']",
       "oldMontotoXPath" : "",
@@ -37,9 +37,9 @@
       "label" : "",
       "href" : "categories.php"
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//a[@id='menu_item_announcement_categories']",
       "oldMontotoXPath" : "",
@@ -60,9 +60,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//select",
       "oldMontotoXPath" : "",
@@ -83,9 +83,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//div[@id='ann_07d58e9c-021e-4e7b-b2ec-adbd3229c1ea']/div[@class='card-header']",
       "oldMontotoXPath" : "",
@@ -106,9 +106,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//p[normalize-space(text()) = 'Lorem ipsum']",
       "oldMontotoXPath" : "",
@@ -129,9 +129,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//div[@id='ann_74ff1434-e58a-4e9d-9311-5d22977d5c8b']/div[@class='card-header']",
       "oldMontotoXPath" : "",
@@ -152,9 +152,9 @@
       "label" : "",
       "href" : ""
     },
-    "lastUpdate" : "2024-12-01",
+    "lastUpdate" : "2024-12-10",
     "history" : [ {
-      "updateDate" : "2024-12-01",
+      "updateDate" : "2024-12-10",
       "oldRobulaXPath" : "",
       "newRobulaXPath" : "//p[normalize-space(text()) = 'Test 1']",
       "oldMontotoXPath" : "",
