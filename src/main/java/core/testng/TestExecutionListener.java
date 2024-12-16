@@ -2,7 +2,6 @@ package core.testng;
 
 
 import core.helper.LogHelper;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.IExecutionListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;

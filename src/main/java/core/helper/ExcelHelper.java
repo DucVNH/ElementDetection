@@ -1,6 +1,5 @@
 package core.helper;
 
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row;
@@ -9,9 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -95,19 +92,4 @@ public class ExcelHelper {
         }
     }
 
-    public void setStringCellValue(String stringValue, String sheetName, int rowNum, String columnName) throws IOException {
-        XSSFSheet worksheet = workbook.getSheet(sheetName);
-        int columnIndex = 0;
-        XSSFRow xssfRow = worksheet.getRow(0);
-        for (int i = 0; i < xssfRow.getLastCellNum(); i++) {
-            if (xssfRow.getCell(i).getStringCellValue().trim().equalsIgnoreCase(columnName.trim()))
-                columnIndex = i;
-        }
-        xssfRow = worksheet.getRow(rowNum);
-        Cell cell = xssfRow.getCell(columnIndex);
-        cell.setCellValue(stringValue);
-        FileOutputStream outputStream = new FileOutputStream(new File(FileUtils.getAbsolutePathTestResourceFile(excelPath)));
-        workbook.write(outputStream);
-        outputStream.close();
-    }
 }

@@ -4,13 +4,10 @@ import core.entity.ElementLocator;
 import core.entity.PageLocators;
 import core.helper.JsonHelper;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -22,8 +19,6 @@ import static core.entity.PageLocators.getElementLocator;
 import static core.entity.PageLocators.getMontotoXPath;
 import static core.entity.PageLocators.getRobulaXPath;
 import static core.entity.PageLocators.updateXPath;
-import static core.helper.FileUtils.fileExists;
-import static core.helper.ScreenshotUtils.screenshot;
 import static core.helper.algorithm.montoto.Montoto.generateMontotoXPath;
 import static core.helper.algorithm.robula.UtilsROBULAPlusNew.generateRobulaXPath;
 
@@ -47,49 +42,6 @@ public class BasePage extends AbstractBasePage {
         logger.info("Initializing Page: {}", this.getClass().getName());
         super.driver = (RemoteWebDriver) driver;
         initElements((RemoteWebDriver) driver);
-    }
-
-    public void refreshPage() {
-        logger.info("Refresh page");
-        driver.navigate().refresh();
-        waitForPageLoaded();
-    }
-
-    public void waitFileExist(String strFilePath) throws InterruptedException {
-        waitFileExist(strFilePath, 30);
-    }
-    public void waitFileExist(String strFilePath, int timeout) throws InterruptedException {
-        int count = 0;
-        while(!fileExists(strFilePath) && count < timeout){
-            Thread.sleep(1000);
-            count++;
-        }
-    }
-
-    public void getScreenshot() throws IOException {
-        screenshot(driver);
-    }
-
-    public void printPageSource(){
-        logger.info(driver.getPageSource());
-    }
-
-    public String pageVisibility() {
-        return (String) driver.executeScript("return document.visibilityState");
-    }
-
-    public void clickButton(String strButtonName){
-        Actions actions = new Actions(driver);
-        switch (strButtonName){
-            case "Home":
-                actions.sendKeys(Keys.HOME).perform();
-                break;
-            case "End":
-                actions.sendKeys(Keys.END).perform();
-                break;
-            default:
-                break;
-        }
     }
 
     public WebElement getWebElement(String elementId, PageLocators locators) {

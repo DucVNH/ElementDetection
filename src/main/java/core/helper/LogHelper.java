@@ -49,21 +49,8 @@ public class LogHelper {
         Assert.fail(var1);
     }
 
-    public void debug(String var1, Object... var2) {
-        getLogger().debug(var1, var2);
-    }
-
     public void info(String var1, Object... var2) {
         getLogger().info(var1, var2);
     }
 
-    public void logFile(File file, String message) {
-        getLogger().info("RP_MESSAGE#FILE#{}#{}", file.getAbsolutePath(), message);
-    }
-
-    public void logScreenshot(byte[] bytes, String message) {
-        Logger binaryDataLogger = LoggerFactory.getLogger("binary_data_logger");
-        String encode = Base64.getEncoder().encodeToString(bytes);
-        binaryDataLogger.info("RP_MESSAGE#BASE64#{}#{}", encode, message);
-    }
 }
