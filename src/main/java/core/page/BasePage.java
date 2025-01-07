@@ -29,13 +29,7 @@ public class BasePage extends AbstractBasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = (RemoteWebDriver) driver;
-
-        String webName = getClass().getPackage().getName().split("\\.")[1]; // Dynamically retrieve package name
-        String pageName = getClass().getSimpleName();       // Dynamically retrieve class name
-
-        this.locators = JsonHelper.loadLocators(webName, pageName);
-        this.locators.setWebName(webName);
-        this.locators.setPageName(pageName);
+        this.locators = JsonHelper.loadLocators(getWebName(), getPageName());
     }
 
     public void init(WebDriver driver) {
@@ -50,6 +44,7 @@ public class BasePage extends AbstractBasePage {
             String montotoXpath = getMontotoXPath(elementId, locators);
             List<WebElement> robulaResult = driver.findElements(By.xpath(robulaXpath));
             List<WebElement> montotoResult = driver.findElements(By.xpath(montotoXpath));
+            // Both XPath locators successfully locate the web element
             if (robulaResult.size() == 1 && montotoResult.size() == 1) {
                 if (robulaResult.get(0).equals(montotoResult.get(0)))
                     return robulaResult.get(0);
@@ -59,16 +54,20 @@ public class BasePage extends AbstractBasePage {
                     int montotoScore = calculateScore(robulaResult.get(0), oldElement);
                     return robulaScore > montotoScore ? robulaResult.get(0) : montotoResult.get(0);
                 }
+            // Robula+ XPath locator successfully locate the web element but Montoto XPath locator failed to locate the web element
             } else if (robulaResult.size() == 1 && montotoResult.size() != 1) {
                 updateSingleLocator(elementId, robulaResult.get(0), locators, "Montoto");
                 return robulaResult.get(0);
+            // Montoto XPath locator successfully locate the web element but Robula+ XPath locator failed to locate the web element
             } else if (robulaResult.size() != 1 && montotoResult.size() == 1) {
                 updateSingleLocator(elementId, montotoResult.get(0), locators, "Robula");
                 return montotoResult.get(0);
+            // Both XPath locators failed to locate the element
             } else if (robulaResult.size() != 1 && montotoResult.size() != 1) {
                 throw new NoSuchElementException(String.format("Can not locate element %s by Xpath.", elementId));
             }
         } catch (Exception e) {
+            // Try locating the web element using Multi-Attributes solution
             WebElement bestMatchElement = findBestMatch(elementId, locators);
             updateLocatorData(elementId, bestMatchElement, locators);
             return bestMatchElement;
@@ -84,6 +83,7 @@ public class BasePage extends AbstractBasePage {
         boolean useAncestorXpath = !oldElement.getAttributes().getAncestorXpath().equals("") &&
                 isElementPresent(By.xpath(oldElement.getAttributes().getAncestorXpath()), Duration.ofSeconds(5));
 
+        // Find candidate web elements using attributes stored in JSON file and store them into candidates Set
         List<WebElement> idMatch = findPossibleIdMatch(oldElement);
         List<WebElement> tagMatch = findPossibleTagMatch(oldElement, useAncestorXpath);
         List<WebElement> classMatch = findPossibleClassMatch(oldElement, useAncestorXpath);
@@ -121,6 +121,7 @@ public class BasePage extends AbstractBasePage {
         return bestMatch;
     }
 
+    // Generate new Robula+ and Montoto XPath locators and update them to JSON file
     public void updateLocatorData(String elementId, WebElement bestMatch, PageLocators locators) {
         ElementLocator oldElement = getElementLocator(elementId, locators);
         String absoluteXpath = getAbsoluteXPath(bestMatch);
@@ -133,6 +134,7 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
+    // Generate new Robula+ or Montoto XPath locator to update it to JSON file
     public void updateSingleLocator(String elementId, WebElement bestMatch, PageLocators locators, String locatorName) {
         ElementLocator oldElement = getElementLocator(elementId, locators);
         String absoluteXpath = getAbsoluteXPath(bestMatch);
@@ -214,6 +216,7 @@ public class BasePage extends AbstractBasePage {
         return score;
     }
 
+    // Finds candidate elements by matching the ID attribute of the target element
     public List<WebElement> findPossibleIdMatch(ElementLocator element) {
         if (element.getAttributes().getId().equals("")) {
             return null;
@@ -223,6 +226,7 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
+    // Finds candidate elements based on the tag name
     public List<WebElement> findPossibleTagMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getTag().equals("")) {
             return null;
@@ -237,6 +241,7 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
+    // Finds candidate elements by evaluating their class attributes
     public List<WebElement> findPossibleClassMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getClassName().equals("")) {
             return null;
@@ -251,6 +256,7 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
+    // Finds candidate elements based on their visible text content
     public List<WebElement> findPossibleTextMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getText().equals("")) {
             return null;
@@ -272,6 +278,7 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
+    // Finds candidate elements based on label associations
     public List<WebElement> findPossibleLabelMatch(ElementLocator element, boolean useAncestorXpath) {
         if (element.getAttributes().getLabel().equals("")) {
             return null;
@@ -293,6 +300,7 @@ public class BasePage extends AbstractBasePage {
         }
     }
 
+    // Finds candidate elements using href attribute (used for <a> tags)
     public List<WebElement> findPossibleHrefMatch(ElementLocator element) {
         if (element.getAttributes().getHref().equals("")) {
             return null;

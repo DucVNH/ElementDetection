@@ -33,10 +33,16 @@ public class AbstractBasePage {
         PageFactory.initElements(driver, this);
     }
 
+    /**
+     * Retrieves the name of the package containing the page class.
+     */
     public String getWebName() {
         return this.getClass().getPackage().getName().split("\\.")[1];
     }
 
+    /**
+     * Retrieves the name of the page class.
+     */
     public String getPageName() {
         return this.getClass().getSimpleName();
     }
@@ -252,7 +258,7 @@ public class AbstractBasePage {
         return -1; // Return -1 if not found
     }
 
-    // Dummy method for getPositionStar (you can define your own logic)
+    // Dummy method for getPositionStar
     public static int getElementPositionStar(WebElement element, List<WebElement> siblings) {
         return getElementPosition(element, siblings); // Placeholder: can customize this logic
     }
