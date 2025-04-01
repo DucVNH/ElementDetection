@@ -1,0 +1,73 @@
+{
+  "elements" : [ {
+    "elementId" : "header",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "",
+      "tag" : "h1",
+      "className" : "",
+      "text" : "Welcome to My Website",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+	"elementId" : "inputUsername",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "username",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "Username:",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "inputPassword",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "password",
+      "tag" : "input",
+      "className" : "",
+      "text" : "",
+      "label" : "Password:",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  }, {
+    "elementId" : "btnLogin",
+    "xpaths" : {
+      "robula" : "",
+      "montoto" : ""
+    },
+    "attributes" : {
+      "ancestorXpath" : "",
+      "id" : "login-btn",
+      "tag" : "button",
+      "className" : "",
+      "text" : "Login",
+      "label" : "",
+      "href" : ""
+    },
+    "lastUpdate" : "",
+    "history" : []
+  } ],
+  "webName" : "example",
+  "pageName" : "LoginPage"
+}

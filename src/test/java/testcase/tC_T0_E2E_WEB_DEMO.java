@@ -8,6 +8,7 @@ import page.admidio.GroupsAndRolesPage;
 import page.automationintesting.SeleniumTestPage;
 import core.testng.BaseTest;
 import org.testng.annotations.Test;
+import page.example.LoginPage;
 import page.mantisbt.ManagePage;
 import page.mantisbt.MantisLoginPage;
 import page.mantisbt.SummaryPage;
@@ -18,6 +19,7 @@ import page.orangehrm.ViewEmployeeTimesheet;
 import page.orangehrm.ViewSystemUsers;
 
 public class tC_T0_E2E_WEB_DEMO extends BaseTest {
+    LoginPage loginPage = new LoginPage(webDriver);
     SeleniumTestPage seleniumTestPage = new SeleniumTestPage(webDriver);
 
     page.mantisbt.SidePanel mantisSidePanel = new page.mantisbt.SidePanel(webDriver);
@@ -37,6 +39,13 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
     DocumentsAndFilesPage documentsAndFilesPage = new DocumentsAndFilesPage(webDriver);
     GroupsAndRolesPage groupsAndRolesPage = new GroupsAndRolesPage(webDriver);
     AnnouncementsPage announcementsPage = new AnnouncementsPage(webDriver);
+
+    @Test
+    public void tC_T0_E2E_WEB_EXAMPLE() {
+        SoftAssert softAssert = new SoftAssert();
+        loadUrl("file:///C:/Users/MSII/Documents/ElementDetection/src/test/java/page/example/version_2.html");
+        loginPage.verifyPage(softAssert);
+    }
 
     @Test
     public void tC_T0_E2E_WEB_DEMO_000() {
@@ -91,5 +100,15 @@ public class tC_T0_E2E_WEB_DEMO extends BaseTest {
         groupsAndRolesPage.verifyPage(softAssert);
         admidioSidePanel.goToAnnouncements();
         announcementsPage.verifyPage(softAssert);
+    }
+
+    @Test
+    public void tC_T0_E2E_WEB_DEMO_004() {
+        String webVer = "2_27_0";
+
+        loadUrl(String.format("http://localhost/mantisbt_%s/my_view_page.php", webVer));
+        mantisLoginPage.logIn("administrator", "root");
+        mantisSidePanel.goToManage();
+        managePage.clickTabManageTags();
     }
 }

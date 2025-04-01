@@ -37,4 +37,10 @@ public class ManagePage extends BasePage {
         softAssert.assertTrue(loremField != null);
         softAssert.assertTrue(newCustomFieldBtn != null);
     }
+
+    public void clickTabManageTags() {
+        waitForPageLoaded();
+        WebElement manageTags = getWebElement("manageTags", locators);
+        clickOnElement(manageTags);
+    }
 }
